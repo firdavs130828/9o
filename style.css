@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+
+}
+body{
+    background-color: #1f242d;
+}
+header{
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ 
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+header h2{
+    color: white;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: #00EEFF;
+}
+.menu-btn{
+    font-size: 24px;
+    color: white;
+    background-color: inherit;
+    border: none;
+    display: none;
+
+}
+.text .ronaldo{
+color: white;
+font-weight: 700;
+
+font-size: 32px;
+
+
+
+}
+.text h1{
+    color: white;
+font-weight: 700;
+
+font-size: 56px;
+
+
+
+}
+.text h2{
+color: white;
+font-weight: 700;
+
+font-size: 32px;
+
+
+
+}
+.text{
+    margin-top: 70px;
+}
+span{
+    color: #00EEFF;
+font-weight: 700;
+
+font-size: 32px;
+
+
+
+}
+.text p{
+   color: white;
+font-weight: 400;
+
+font-size: 16px;
+margin-top: 10px;
+
+
+
+
+}
+.btn{
+    width: 176.58999633789062px;
+height: 45px;
+
+
+box-shadow: 0px 0px 10px 0px #00EEFF;
+background-color: #00EEFF;
+
+border-radius: 40px;
+border: none;
+margin-top: 15px;
+}
+.hero .container{
+    margin-top: 150px;
+display: flex;
+justify-content: space-around;
+
+}
+.text img{
+    margin-top: 20px;
+    gap: 100px;
+}
+.cr h2{
+font-weight: 700;
+font-size: 45px;
+color: white;
+text-align: center;
+}
+.cr{
+    margin-top: 100px;
+}
+.btn2{
+    width: 151px;
+    height: 45px;
+    background-color: #00EEFF;
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+border: none;
+border-radius: 40px;
+margin-top: 40px;
+}
+.cr p{
+    color: white;
+font-weight: 400;
+
+font-size: 16px;
+}
+.cr h3{
+
+font-weight: 700;
+
+font-size: 26px;
+color: white;
+margin-bottom: 40px;
+}
+.card{
+padding: 30px;
+width: 380.2699890136719px;
+height: 369px;
+background: #323946;
+text-align: center;
+border-radius: 20px;
+border-width: 2px;
+border: 2px solid #1F242D
+}
+.card img{
+    margin-bottom: 10px;
+}
+.ota{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+
+}
+.firdavs h2{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 150px;
+text-align: center;
+}
+.firdavs {
+    margin-top: 300px;
+    width: 1440px;
+height: 900px;
+background: #323946;
+
+
+
+
+
+}
+
+.card2 img{
+width: 376px;
+height: 251px;
+border-radius: 20px;
+margin: 10px 10px;
+
+
+}
+.pol{
+    font-size: 45px;
+    font-weight: 700;
+color: white    ;
+text-align: center;
+
+}
+.valverde{
+    margin-top: 200px;
+
+}
+input{
+    width: 343px;
+height: 55px;
+background: #323946;
+color: #757575;
+margin: 5px 5px;
+border-radius: 8px;
+padding: 5px;  
+border: none; 
+}
+.fedya{
+    margin-top: 50px;
+    text-align: center;
+}
+textarea{
+    width: 700px;
+height: 280px;
+background: #323946;
+border: none;
+border-radius: 8px;
+margin-top: 15px;
+}
+footer .container{
+width: 1440px;
+height: 80px;
+margin-top: 100px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+footer{
+    background: #323946;
+
+}
+footer p{
+color: white;
+font-weight: 400;
+
+font-size: 16px;
+
+
+
+}
+.hero img{
+    animation-name: aylan;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes aylan{
+    from{
+        transform: rotate(odeg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    nav{
+        display: none;
+
+    }
+    .menu-btn{
+        display: block;
+
+    }
+    header{
+        padding: 30px;
+    }
+}
